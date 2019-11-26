@@ -4,12 +4,15 @@
   <meta charset="UTF-8">
   <title>My Movies</title>
 </head>
+
 <body>
   <h1>My Movies</h1>
   <ul>
-    <li><%= @movie.title %></li>
+    <% @movies.each do |movie| %>
+    <li><a href="/movies/<%= movie.id %>"><%= movie.title %></a></li>
+    <% end %>
   </ul>
 
-  <a href="#">Add new movie</a>
+  <a href="/movies/new">Add new movie</a>
 </body>
 </html>

@@ -1,0 +1,11 @@
+---
+1: !ruby/object:Movie
+  title: Foo Bar
+  director: Mr. Foo
+  year: 1988
+  id: 1
+2: !ruby/object:Movie
+  title: Baz Maz
+  director: Mr. Bar
+  year: 1854
+  id: 2
