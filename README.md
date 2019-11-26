@@ -1,6 +1,6 @@
-# Sitnatra application from Head First Ruby book
+# Sinatra application from Head First Ruby book
 
-This Sitnatra application work with YAML::Store for save and read data.
+This Sinatra application work with YAML::Store for save and read data.
 
 Start application in console:
 ```bash
