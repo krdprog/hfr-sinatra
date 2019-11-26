@@ -1,4 +1,4 @@
-# Sitnatra application from Head Firs Ruby book
+# Sitnatra application from Head First Ruby book
 
 This Sitnatra application work with YAML::Store for save and read data.
 
